@@ -1,0 +1,13 @@
+global:
+  css:
+    theme:
+      dist/css/main.min.css: {}
+      dist/css/print.min.css: { media: print }
+  js:
+    dist/js/bundle.min.js: { minified: true }
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - core/normalize
+    - core/modernizr
