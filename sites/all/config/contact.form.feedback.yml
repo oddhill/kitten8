@@ -1,0 +1,12 @@
+uuid: f98f76f9-8d84-442d-a870-a0cec5cbc425
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - olof@oddhill.se
+reply: ''
+weight: 0
