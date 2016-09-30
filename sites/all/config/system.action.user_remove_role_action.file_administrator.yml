@@ -1,0 +1,14 @@
+uuid: 565d81ac-3ba2-4fbd-a1c2-3cbaff836ee6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.file_administrator
+  module:
+    - user
+id: user_remove_role_action.file_administrator
+label: 'Remove the File administrator role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: file_administrator

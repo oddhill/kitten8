@@ -1,6 +1,6 @@
 uuid: bf3e633a-d7df-4d93-b6d0-9686535fba80
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,8 +12,8 @@ _core:
   default_config_hash: DweBpscQZdG0-fHkSpUzdYucrNH45G_KF7Z82V-oyQM
 id: bartik_account_menu
 theme: bartik
-region: secondary_menu
-weight: 0
+region: '-1'
+weight: -5
 provider: null
 plugin: 'system_menu_block:account'
 settings:

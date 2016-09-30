@@ -1,0 +1,12 @@
+uuid: df9666fd-1262-4b28-818e-d461e99b5ebc
+langcode: en
+status: true
+dependencies: {  }
+id: news_editor
+label: 'News editor'
+weight: -7
+is_admin: null
+permissions:
+  1: 'create news content'
+  2: 'delete own news content'
+  3: 'edit own news content'

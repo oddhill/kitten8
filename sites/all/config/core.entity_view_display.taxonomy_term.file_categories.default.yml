@@ -1,0 +1,13 @@
+uuid: 9d7f2198-acd9-4e73-b971-a58654156545
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.file_categories
+id: taxonomy_term.file_categories.default
+targetEntityType: taxonomy_term
+bundle: file_categories
+mode: default
+content: {  }
+hidden:
+  description: true

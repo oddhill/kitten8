@@ -1,0 +1,28 @@
+uuid: dec81f26-daed-4f1f-8565-668bf452bb0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.file.field_file_category
+    - file_entity.type.audio
+    - taxonomy.vocabulary.file_categories
+id: file.audio.field_file_category
+field_name: field_file_category
+entity_type: file
+bundle: audio
+label: Category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      file_categories: file_categories
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

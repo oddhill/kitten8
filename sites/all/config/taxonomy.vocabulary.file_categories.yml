@@ -1,0 +1,9 @@
+uuid: 141e370f-32c9-46cb-8e18-bc7d37c4282b
+langcode: en
+status: true
+dependencies: {  }
+name: 'File categories'
+vid: file_categories
+description: ''
+hierarchy: 0
+weight: 0

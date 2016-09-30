@@ -1,0 +1,15 @@
+uuid: 5e6e8826-8e9a-49a3-b226-f5eafa24eafa
+langcode: en
+status: true
+dependencies: {  }
+id: file_administrator
+label: 'File administrator'
+weight: -6
+is_admin: null
+permissions:
+  - 'access files overview'
+  - 'create files'
+  - 'administer files'
+  - 'delete terms in file_categories'
+  - 'edit terms in file_categories'
+  - 'bypass file access'

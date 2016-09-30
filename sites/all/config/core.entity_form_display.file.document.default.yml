@@ -1,0 +1,25 @@
+uuid: 0cab385f-fd6a-411c-905c-79c712e00956
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.file.document.field_file_category
+    - file_entity.type.document
+id: file.document.default
+targetEntityType: file
+bundle: document
+mode: default
+content:
+  field_file_category:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  filename:
+    type: string_textfield
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -6,6 +6,16 @@ _core:
   default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
 id: administrator
 label: Administrator
-weight: 2
-is_admin: true
-permissions: {  }
+weight: -8
+is_admin: false
+permissions:
+  0: 'access files overview'
+  1: 'create files'
+  2: 'administer files'
+  5: 'create url aliases'
+  6: 'delete terms in file_categories'
+  7: 'edit terms in file_categories'
+  9: 'bypass file access'
+  10: 'administer nodes'
+  11: 'revert all revisions'
+  12: 'bypass node access'

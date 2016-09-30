@@ -12,6 +12,6 @@ name: 'News item'
 type: news
 description: 'News items are published on the front page in chronological order.'
 help: ''
-new_revision: false
+new_revision: true
 preview_mode: 1
 display_submitted: true

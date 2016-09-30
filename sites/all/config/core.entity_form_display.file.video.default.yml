@@ -1,0 +1,25 @@
+uuid: 99001387-faf9-4f6d-8d4b-66c620f3eb7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.file.video.field_file_category
+    - file_entity.type.video
+id: file.video.default
+targetEntityType: file
+bundle: video
+mode: default
+content:
+  field_file_category:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  filename:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -6,14 +6,20 @@ _core:
   default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
 id: authenticated
 label: 'Authenticated user'
-weight: 1
+weight: -9
 is_admin: false
 permissions:
-  - 'access content'
-  - 'use text format basic_html'
-  - 'access comments'
-  - 'post comments'
-  - 'skip comment approval'
-  - 'access site-wide contact form'
-  - 'access shortcuts'
-  - 'search content'
+  0: 'access content'
+  1: 'use text format basic_html'
+  9: 'download any audio files'
+  10: 'download any document files'
+  11: 'download any image files'
+  12: 'download any video files'
+  13: 'access contextual links'
+  14: 'view own unpublished content'
+  15: 'access in-place editing'
+  16: 'view the administration theme'
+  17: 'access toolbar'
+  18: 'access tour'
+  19: 'change own username'
+  20: 'access content overview'

@@ -6,11 +6,11 @@ _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
 id: anonymous
 label: 'Anonymous user'
-weight: 0
+weight: -10
 is_admin: false
 permissions:
-  - 'access content'
-  - 'use text format restricted_html'
-  - 'access comments'
-  - 'access site-wide contact form'
-  - 'search content'
+  0: 'access content'
+  6: 'download any audio files'
+  7: 'download any document files'
+  8: 'download any image files'
+  9: 'download any video files'

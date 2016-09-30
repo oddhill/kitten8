@@ -1,0 +1,25 @@
+uuid: fff1621e-778d-4ee8-b7d5-33eba8a60951
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.file.audio.field_file_category
+    - file_entity.type.audio
+id: file.audio.default
+targetEntityType: file
+bundle: audio
+mode: default
+content:
+  field_file_category:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  filename:
+    type: string_textfield
+    weight: -5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
