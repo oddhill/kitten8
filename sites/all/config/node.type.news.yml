@@ -1,0 +1,17 @@
+uuid: 9d07ed0f-a970-4fe8-879a-e6116d8390ea
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'News item'
+type: news
+description: 'News items are published on the front page in chronological order.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true
